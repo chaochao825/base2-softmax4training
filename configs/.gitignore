@@ -1,0 +1,19 @@
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+
+# Log files
+*.log
+
+# All files in this directory (uncomment if you want to ignore everything)
+# *
+

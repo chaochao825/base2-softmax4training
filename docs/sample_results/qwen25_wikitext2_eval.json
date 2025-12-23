@@ -1,0 +1,80 @@
+[
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "quant_mode": "fp16",
+    "softmax": "standard",
+    "dataset": "wikitext-2-raw-v1",
+    "split": "validation",
+    "samples": 256,
+    "max_length": 512,
+    "temperature": 1.0,
+    "loss": 10.179570183753967,
+    "ppl": 26359.135278008733,
+    "tokens": 51200
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "quant_mode": "fp16",
+    "softmax": "base2",
+    "dataset": "wikitext-2-raw-v1",
+    "split": "validation",
+    "samples": 256,
+    "max_length": 512,
+    "temperature": 1.0,
+    "loss": 10.697179827690125,
+    "ppl": 44230.94019948428,
+    "tokens": 51200
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "quant_mode": "int8",
+    "softmax": "standard",
+    "dataset": "wikitext-2-raw-v1",
+    "split": "validation",
+    "samples": 256,
+    "max_length": 512,
+    "temperature": 1.0,
+    "loss": 10.130429263114928,
+    "ppl": 25095.134535305442,
+    "tokens": 51200
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "quant_mode": "int8",
+    "softmax": "base2",
+    "dataset": "wikitext-2-raw-v1",
+    "split": "validation",
+    "samples": 256,
+    "max_length": 512,
+    "temperature": 1.0,
+    "loss": 10.480996384620667,
+    "ppl": 35631.892930402064,
+    "tokens": 51200
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "quant_mode": "4bit",
+    "softmax": "standard",
+    "dataset": "wikitext-2-raw-v1",
+    "split": "validation",
+    "samples": 256,
+    "max_length": 512,
+    "temperature": 1.0,
+    "loss": 9.741747307777405,
+    "ppl": 17013.242795876267,
+    "tokens": 51200
+  },
+  {
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "quant_mode": "4bit",
+    "softmax": "base2",
+    "dataset": "wikitext-2-raw-v1",
+    "split": "validation",
+    "samples": 256,
+    "max_length": 512,
+    "temperature": 1.0,
+    "loss": 10.51318989753723,
+    "ppl": 36797.67333394606,
+    "tokens": 51200
+  }
+]

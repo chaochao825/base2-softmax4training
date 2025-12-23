@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch model files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.ico
+
+# Logs and data
+*.log
+*.tfevents*
+*.pkl
+*.npy
+*.npz
+logs/
+logs_v2/
+logs_v3/
+wandb/
+runs/
+outputs/
+checkpoints/
+artifacts/
+.cache/
+cache/
+.hf_cache
+
+# Results and checkpoints
+results/
+results_v2/
+results_v3/
+new_result/
+test_run/
+
+# Data directories
+data/
+datasets/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
