@@ -173,28 +173,6 @@ base-2-bitnet/
   - `qwen25_wikitext2_eval.json`: Wikitext-2 evaluation across quantization settings for Qwen2.5-3B.
 - Checkpoints (`*.pth`, `*.pt`, `*.safetensors`, `*.bin`) and intermediate tensors (`*.npy`, `*.npz`, `*.pkl`) remain ignored by default. Regenerate them locally using the commands above.
 
----
-
-## Key Features
-
-- **BitNet 1.58-bit Quantization**: Ternary weights {-1, 0, 1} with straight-through estimator
-- **Configurable Softmax**: Easy switch between standard (base-e) and base-2
-- **Gradient Tracking**: Monitor gradient norms for stability analysis
-- **Comprehensive Metrics**: Loss, accuracy, gradient norms, learning rate curves
-- **Checkpoint Support**: Save and resume training
-- **Multi-GPU Support**: DDP training with torchrun
-- **WandB Integration**: Optional experiment tracking
-
----
-
-## Documentation
-
-- **[EXPERIMENTS_GUIDE.md](EXPERIMENTS_GUIDE.md)**: Complete experimental guide with all commands
-- **Individual experiment logs**: `logs/`
-- **Results JSON**: `results/results_*.json`
-- **Visualization**: `results/*.png`
-
----
 
 ## Advanced Usage
 
@@ -228,31 +206,11 @@ python scripts/train_enhanced.py \
     --resume results/best_resnet18_CIFAR-10_base2.pth
 ```
 
----
 
-## Citation
 
-If you use this code, please cite:
 
-```bibtex
-@software{base2_softmax_bitnet_2025,
-    title={Base-2 Softmax in Ultra-Low-Bit Quantization: An Empirical Study},
-    author={Research Team},
-    year={2025},
-    url={https://github.com/yourusername/base-2-bitnet}
-}
-```
 
----
 
-## Acknowledgments
 
-- BitNet quantization inspired by Microsoft's BitNet paper
-- Base-2 Softmax concept from hardware efficiency research
-- TernaryQuant implementation reference from Tencent AngelSlim
 
----
 
-## License
-
-MIT License - see LICENSE file for details
