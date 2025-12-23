@@ -164,7 +164,7 @@ base-2-bitnet/
 
 ---
 
-## Outputs & Hygiene
+## Outputs 
 
 - Experiment outputs are written to `results/`, `logs/`, `wandb/`, `new_result/`, `runs/`, and other `outputs/` or `checkpoints/` directories. These paths are gitignored to prevent pushing large artifacts.
 - Sample metrics are stored in `docs/sample_results/`:
@@ -174,7 +174,7 @@ base-2-bitnet/
 - Checkpoints (`*.pth`, `*.pt`, `*.safetensors`, `*.bin`) and intermediate tensors (`*.npy`, `*.npz`, `*.pkl`) remain ignored by default. Regenerate them locally using the commands above.
 
 
-## Advanced Usage
+<!-- ## Advanced Usage
 
 ### Multi-GPU Training
 
@@ -204,7 +204,7 @@ python scripts/train_enhanced.py \
     --model resnet18 \
     --softmax base2 \
     --resume results/best_resnet18_CIFAR-10_base2.pth
-```
+``` -->
 
 
 
